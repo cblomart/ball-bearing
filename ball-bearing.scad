@@ -19,5 +19,3 @@ module ballbearing(inner,outer,d,gap=0.2) {
         rotate([0,0,e]) translate([(inner+outer)/4,0,d/2]) sphere(d=d,$fn=30);
     }
 }
-
-ballbearing(inner=25,outer=45,d=6);
